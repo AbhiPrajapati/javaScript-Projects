@@ -50,6 +50,7 @@ function showError(error){
 
     const card  = document.querySelector( '.card');
     const heading  = document.querySelector( '.heading');
+    
     const divElement = document.createElement('div');
     divElement.className = 'alert alert-danger';
     divElement.appendChild(document.createTextNode(error));
