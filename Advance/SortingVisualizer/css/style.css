@@ -154,3 +154,54 @@
    color: rgba(24, 197, 139, 0.911);
 }
 
+.plain-text{
+    font-size: 40px;
+    display: inline-block;
+    color: rgb(16, 16, 63);
+    text-align: center;
+    margin-top: 10%;
+}
+
+.icon {
+    display: inline-block;
+    font-size: 50px;
+    margin-left: 40%;
+    color: rgb(16, 16, 63);
+    cursor: pointer;
+    
+}
+
+
+.icon:hover{
+    transform: scale(1.1);
+    transition: ease-in;
+}
+
+
+
+/* ------------------------------------------searching Visualizer------------------------------------------ */
+
+
+.sr_container {
+    background-color: rgb(16, 16, 63);
+    height: 100vh;
+    padding: 30px;
+    display: grid;
+    grid-template-rows: 4fr 2fr 1fr;
+    grid-gap: 30px;
+}
+
+.sr_nodeList {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.sr_selection {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.sr_result {
+    background-color: #fff;
+    border-radius: 5px;
+}
